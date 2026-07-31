@@ -166,3 +166,5 @@ jobs:
       - name: Scrub credentials from the runner
         if: always()
         run: rm -f "$SRC/credentials.json" "$SRC/release.keystore" || true
+
+# re-index
